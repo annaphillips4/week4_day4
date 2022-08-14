@@ -13,11 +13,9 @@ arrowRestSum(0); // => 0
 // your code here!
 const arrowRestSum = (...args) => {
   let arr = [...args];
-  sum = 0;
-  arr.forEach(element, index) {
-    sum += element[index];
-  }
-
+  let sum = 0;
+  arr.forEach(ele => sum += ele);
+  return sum;
 }
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
